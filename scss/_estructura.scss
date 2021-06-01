@@ -1,0 +1,17 @@
+.body__main--contain, .main__divImg--contain{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: center;
+    margin-top: 50px;
+}
+.main__divImg--contain{
+    z-index: 10;
+}
+
+.body__nav--contain{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
